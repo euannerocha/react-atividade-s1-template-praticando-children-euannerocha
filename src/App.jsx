@@ -23,7 +23,9 @@ function App() {
       {
         students.map(student => {
           return(
-            <CenteredCard key={student.name} name={student.name} status={student.status}/> 
+            <CenteredCard key={student.name} name={student.name} status={student.status}>
+              <p>Parabéns!</p>
+            </CenteredCard>
           )
         })
       }
